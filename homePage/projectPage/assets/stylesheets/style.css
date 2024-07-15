@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* variables */
+  --text: #1d1716;
+  --background: #fdfafa;
+  --primary: #ff764d;
+  --secondary: #f79b66;
+  --accent: #7bc1b7;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 100dvh;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.content,
+.image {
+  flex: 1 0 max(50dvh, 250px);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--background);
+
+  background-color: #fdfafa;
+  opacity: 1;
+  background-image: radial-gradient(#ff7349 0.5px, #fdfafa 0.5px);
+  background-size: 10px 10px;
+
+  padding: calc(2rem + 3vw);
+  font-size: calc(1rem + .7vw);
+}
+
+.back-btn {
+  position: absolute;
+  left: calc(2rem + 3vw);
+  top: calc(1rem + 3vw);
+  border: solid 2px var(--primary);
+  color: var(--primary);
+  z-index: 999;
+}
+
+.content__title {
+  color: var(--secondary);
+  font-size: calc(1.7rem + .7vw);
+  line-height: calc(1rem + .5vw);
+}
+
+.project-title {
+  color: var(--primary);
+  font-size: calc(2.5rem + .7vw);
+}
+
+.project-desc a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.content__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: var(--background);
+  font-weight: 600;
+  padding: .7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: calc(1rem + .7vw);
+  transition: all ease-in-out 200ms;
+}
+
+.content__buttons .btn {
+  color: var(--primary);
+  border: solid 2px var(--secondary);
+  user-select: none;
+}
+
+.content__buttons .btn:active {
+  color: var(--background);
+  border: solid 2px var(--primary);
+  background-color: var(--primary);
+}
+
+.image {
+  background-image: url(../../../images/Projectplaceholder.webp);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  max-height: 50dvh;
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  display: block;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.content__buttons .btn:hover,
+.content__buttons .btn:active {
+  color: var(--background);
+  border: solid 2px var(--primary);
+  background-color: var(--primary);
+}
+
+.back-btn:hover,
+.back-btn:active {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+@media (min-width: 1000px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .image {
+    min-height: 100dvh !important;
+  }
+}
