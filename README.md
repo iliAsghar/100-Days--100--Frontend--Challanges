@@ -7,6 +7,9 @@ Welcome to my 100-Day Frontend Development Challenge repository!<br>
 This challenge aims to reinforce my HTML, CSS, and JavaScript skills by completing a variety of small projects over 100 days.<br>
 Wish me luck! :D
 
+
+### Start Date: TDB
+
 ## 📋 Table of Contents
 
 - [HomePage Link](#🏠-homepage)
