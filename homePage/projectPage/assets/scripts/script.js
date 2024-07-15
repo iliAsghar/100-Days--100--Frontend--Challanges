@@ -6,7 +6,7 @@ function renderPage(projectId){
     document.title = 'Project #?'
     document.body.innerHTML = `
       <main class="main">
-        <a href="../homepage.html" class="btn back-btn">
+        <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
         </a>
         <section class="content">
@@ -24,7 +24,7 @@ function renderPage(projectId){
     document.title = `Project #${project.id}`;
     document.body.innerHTML = `
       <main class="main">
-        <a href="/homepage.html" class="btn back-btn">
+        <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
         </a>
         <section class="content">
