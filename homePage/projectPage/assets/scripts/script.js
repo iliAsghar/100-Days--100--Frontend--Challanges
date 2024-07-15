@@ -6,9 +6,9 @@ function renderPage(projectId){
     document.title = 'Project #?'
     document.body.innerHTML = `
       <main class="main">
-        <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
+        <button onclick="history.back()" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
-        </a>
+        </button>
         <section class="content">
           <h4 class="content__title">Project #?</h4>
           <h4 class="project-title">[invalid project]</h4>
@@ -24,9 +24,9 @@ function renderPage(projectId){
     document.title = `Project #${project.id}`;
     document.body.innerHTML = `
       <main class="main">
-        <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
+        <button onclick="history.back()" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
-        </a>
+        </button>
         <section class="content">
           <h4 class="content__title">Project #${project.id}</h4>
           <h4 class="project-title">${project.title}</h4>

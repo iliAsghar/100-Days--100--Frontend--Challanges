@@ -48,6 +48,7 @@
   border: solid 2px var(--primary);
   color: var(--primary);
   z-index: 999;
+  cursor: pointer;
 }
 
 .content__title {
