@@ -1,12 +1,21 @@
 "use strict";
 import { getNumberOfProjects, getProjectById } from '../../../assets/scripts/projects.js';
 
+function goback(){
+  history.back();
+  setTimeout(() => {
+    window.close();
+  }, 50);
+}
+
+window.goback = goback;
+
 function renderPage(projectId){
   if(!projectId || getNumberOfProjects()<projectId ){
     document.title = 'Project #?'
     document.body.innerHTML = `
       <main class="main">
-        <button onclick="history.back()" class="btn back-btn">
+        <button onclick="goback()" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
         </button>
         <section class="content">
@@ -24,7 +33,7 @@ function renderPage(projectId){
     document.title = `Project #${project.id}`;
     document.body.innerHTML = `
       <main class="main">
-        <button onclick="history.back()" class="btn back-btn">
+        <button onclick="goback()" class="btn back-btn">
           <i class="fa-solid fa-caret-left"></i>Back
         </button>
         <section class="content">
@@ -49,3 +58,4 @@ window.onload = () => {
   let projectId = new URLSearchParams(location.search).get('id');
   renderPage(projectId);
 }
+
