@@ -16,7 +16,6 @@
   flex-direction: column-reverse;
   min-height: 100dvh;
   position: relative;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .content,
