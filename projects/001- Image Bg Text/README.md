@@ -30,8 +30,8 @@ to learn used methods and properties.
 
 ## 🔗 Links
 
-- [Live Demo](#)
-- [GitHub Repository](#)
+- [Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/001-%20Image%20Bg%20Text/)
+- [GitHub Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/001-%20Image%20Bg%20Text)
 
 ## 📚 What I Learned
 

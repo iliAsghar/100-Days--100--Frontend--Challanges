@@ -26,7 +26,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 
 ## 📂 Project List
 
-001- Image Bg Text [[Repository]()] [[Live Demo]()]
+001- Image Bg Text [[Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/001-%20Image%20Bg%20Text)] [[Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/001-%20Image%20Bg%20Text/)]
 
 ## 🎯 Goals
 
