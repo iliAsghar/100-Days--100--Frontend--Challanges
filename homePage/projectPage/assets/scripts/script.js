@@ -46,7 +46,7 @@ function renderPage(projectId){
           </div>
         </section>
         <section class="image">
-          <img src="${project.screenshot}" alt="project screenshot">
+          <img src="../../.${project.screenshot}" alt="project screenshot">
         </section>
       </main>
     `;
