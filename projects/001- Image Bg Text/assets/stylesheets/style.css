@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: black;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: max(10rem, calc(20vw + 1rem));
+  text-transform: uppercase;
+  color: transparent;
+  position: relative;
+  /* background: used js to load */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw;
+  background-clip: text;
+}

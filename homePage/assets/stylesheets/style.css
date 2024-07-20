@@ -151,11 +151,13 @@ a:has(> .card){
 
 .card__image {
   height: 100%;
+  min-width: 100%;
   background-color: #ffffff;
   background-image: url(../../images/Projectplaceholder.webp);
   background-size: cover;
   background-position: center;
   padding: 1rem;
+  object-fit: cover;
 }
 
 .card__title {
@@ -172,12 +174,13 @@ a:has(> .card){
   bottom: 0;
   height: 33%;
   transform-origin: bottom;
-  background-color: rgba(0, 0, 0, 0.195);
+  background-color: rgba(255, 241, 241, 0.671);
   transition: all ease-in-out 200ms;
   overflow: hidden;
   user-select: none;
   display: flex;
   flex-direction: column;
+  color: rgb(39, 39, 39);
 }
 
 .card__summary {
@@ -244,6 +247,7 @@ a:has(> .card){
 }
 
 @media (hover:hover) {
+
   .desc__text a:hover {
     color: rgb(255, 235, 229);
   }
@@ -254,6 +258,7 @@ a:has(> .card){
 
   .card:hover .card__desc {
     height: 60%;
+    backdrop-filter: blur(1px);
   }
 
   .card:hover .card__desc .card__summary {

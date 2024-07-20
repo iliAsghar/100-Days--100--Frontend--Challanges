@@ -8,7 +8,10 @@ This challenge aims to reinforce my HTML, CSS, and JavaScript skills by completi
 Wish me luck! :D
 
 
-### Start Date: TDB
+### Start Date: 
+July 20, 2024
+
+Tir 30, 1401
 
 ## 📋 Table of Contents
 
@@ -23,7 +26,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 
 ## 📂 Project List
 
-\-
+001- Image Bg Text [[Repository]()] [[Live Demo]()]
 
 ## 🎯 Goals
 

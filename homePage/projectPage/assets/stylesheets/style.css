@@ -133,4 +133,9 @@
   .image {
     min-height: 100dvh !important;
   }
+
+  .image img {
+    background-color: rgba(0, 0, 0, 0.521);
+    object-fit: contain;
+  }
 }
