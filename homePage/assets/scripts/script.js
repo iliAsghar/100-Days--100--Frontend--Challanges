@@ -22,7 +22,7 @@ function navigateToPage(page){
         <li class="card">
           <img src=".${project.screenshot}" alt="${project.title}'s screenshot" class="card__image">
           <div class="card__desc">
-            <h3 class="card__title">${project.title}</h3>
+            <h3 class="card__title">#${Index} - ${project.title}</h3>
             <p class="card__summary">${project.summary}</p>
           </div>
         </li>
