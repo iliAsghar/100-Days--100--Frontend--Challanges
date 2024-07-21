@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: #C0C999;
+}
+
+.tip-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.315);
+  padding: .5rem 2rem;
+  border-radius: 30px;
+}
+
+.color-hex {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-size: clamp(6rem, calc(10vw + 1rem), 10rem);
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.568);
+  cursor: pointer;
+  transition: all ease-in-out 250ms;
+}
+
+.change-color-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.493);
+  border-image: linear-gradient(45deg, rgb(173, 106, 255) 0%, rgba(255,76,76,1) 21%, rgba(251,255,87,1) 40%, rgba(121,255,79,1) 61%, rgba(77,255,254,1) 82%, rgba(96,128,255,1) 100%) 1;
+  box-shadow: 0 0 10px -5px black;
+  padding: 1.25rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all ease-in-out 250ms;
+}
+
+.change-color-btn:active {
+  transition: all ease-in-out 50ms;
+  box-shadow: none !important;
+}
+
+@media (hover:hover) {
+  .change-color-btn:hover {
+    animation: colorSplash .5s ease infinite forwards;
+    box-shadow: 0 0 10px -3px black;
+  }  
+}
+
+@keyframes colorSplash {
+  0%, 100% {
+    border-image: linear-gradient(45deg, rgb(173, 106, 255) 0%, rgba(255,76,76,1) 21%, rgba(251,255,87,1) 40%, rgba(121,255,79,1) 61%, rgba(77,255,254,1) 82%, rgba(96,128,255,1) 100%) 1;
+  }
+  16% {
+    border-image: linear-gradient(45deg, rgba(96,128,255,1) 0%, rgb(173, 106, 255) 21% rgba(255,76,76,1) 40%, rgba(251,255,87,1) 61%, rgba(121,255,79,1) 82%, rgba(77,255,254,1) 100%) 1;
+  }
+  32% {
+    border-image: linear-gradient(45deg, rgba(77,255,254,1) 0%, rgba(96,128,255,1) 21%, rgb(173, 106, 255) 40%, rgba(255,76,76,1) 61%, rgba(251,255,87,1) 82%, rgba(121,255,79,1) 100%) 1;
+  }
+  48% {
+    border-image: linear-ient(45deg, rgba(121,255,79,1) 0%, rgba(77,255,254,1) 21%, rgba(96,128,255,1) 40%, rgb(173, 106, 255) 61%, rgba(255,76,76,1) 82%, rgba(251,255,87,1) 100%) 1;
+  }
+  64% {
+    border-image: linear-gradient(45deg, rgba(251,255,87,1) 0%, rgba(121,255,79,1) 21%, rgba(77,255,254,1) 40%, rgba(96,128,255,1) 61%, rgb(173, 106, 255) 82%, rgba(255,76,76,1) 100%) 1;
+  }
+  80% {
+    border-image: linear-gradient(45deg, rgba(255,76,76,1) 0%, rgba(251,255,87,1) 21%, rgba(121,255,79,1) 40%, rgba(77,255,254,1) 61%, rgba(96,128,255,1) 82%, rgb(173, 106, 255) 100%) 1;
+  }  
+}

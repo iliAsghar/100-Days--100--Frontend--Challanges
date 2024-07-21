@@ -6,6 +6,14 @@ export const projects = [
     screenshot: '/project screenshots/1.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/001-%20Image%20Bg%20Text/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/001-%20Image%20Bg%20Text'
+  },
+  {
+    id: 2,
+    title: 'Random Hex Generator',
+    summary: 'This project is a Random Hex code generator. by clicking the change color button, the hex value and the background color changes randomly. you can also copy the hex by clicking on it.',
+    screenshot: '/project screenshots/2.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/002-%20Random%20Hex%20Generator/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/002-%20Random%20Hex%20Generator'
   }
 ];
 
