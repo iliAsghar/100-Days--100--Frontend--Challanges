@@ -16,7 +16,7 @@ function renderPage(projectId){
     document.body.innerHTML = `
       <main class="main">
         <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
-          <i class="fa-solid fa-caret-left"></i>Back
+          <i class="fa-solid fa-caret-left"></i>HomePage
         </a>
         <section class="content">
           <h4 class="content__title">Project #?</h4>
@@ -34,7 +34,7 @@ function renderPage(projectId){
     document.body.innerHTML = `
       <main class="main">
         <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html" class="btn back-btn">
-          <i class="fa-solid fa-caret-left"></i>Back
+          <i class="fa-solid fa-caret-left"></i>HomePage
         </a>
         <section class="content">
           <h4 class="content__title">Project #${project.id}</h4>
