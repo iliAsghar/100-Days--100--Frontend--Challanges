@@ -19,7 +19,7 @@ export const projects = [
     id: 3,
     title: 'Fullscreen Nav Menu',
     summary: "Today's project was to build a fullscreen nav menu that expands and collapses by a hamburger menu. it was fun and kinda hard to style. i added a cool animation on the hamburger menu. overall it was good.",
-    screenshot: '/project screenshots/2.png',
+    screenshot: '/project screenshots/3.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/003-%20Fullscreen%20Nav%20Menu/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/003-%20Fullscreen%20Nav%20Menu'
   }
