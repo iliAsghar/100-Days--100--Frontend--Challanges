@@ -1,0 +1,104 @@
+.menu {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: rgba(23, 23, 80, 0.671);
+  backdrop-filter: blur(5px);
+  height: 100dvh;
+  width: 100vw;
+  color: white;
+  clip-path: circle(3rem at calc(100vw - 6rem) 5rem);
+  transition: all 500ms ease-in-out;
+}
+
+.menu li {
+  cursor: pointer;
+  position: relative;
+  padding-block: 1rem;
+  width: 20rem;
+  text-shadow: 0 1px 2px black;
+}
+
+.menu li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%) scaleY(0);
+  border-inline: 2px solid white;
+  z-index: -1;
+  transform-origin: top;
+  transition: all 250ms ease-in-out;
+}
+
+@media (hover:hover) {
+  .menu li:hover::after {
+    transform: translate(-50%) scaleY(1);
+    transform-origin: bottom;
+  }
+}
+
+/* body:has(.menu--active){
+  overflow: hidden;
+} */ 
+ /* ^ this did not work unfortunetly because the navbar toggle messed up the widths*/
+
+.menu--active {
+  clip-path: circle(calc(120vmax) at calc(100vw - 6rem) 5rem);
+}
+
+
+.hamburger-menu {
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  right: 6rem;
+  top: 5rem;
+  transform: translate(50%, -50%);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu span {
+  display: block;
+  height: 6px;
+  width: 50%;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 250ms ease-in-out;
+}
+
+.menu--active .hamburger-menu span.first {
+  transform-origin: center;
+}
+
+.menu--active .hamburger-menu span.first {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.menu--active .hamburger-menu span.middle {
+  opacity: 0;
+}
+
+.menu--active .hamburger-menu span.last {
+  transform: translateY(-11px) rotate(-45deg);
+}
