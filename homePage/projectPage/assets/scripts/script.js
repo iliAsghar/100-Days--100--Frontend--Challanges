@@ -21,7 +21,7 @@ function renderPage(projectId){
         <section class="content">
           <h4 class="content__title">Project #?</h4>
           <h4 class="project-title">[invalid project]</h4>
-          <p class="project-desc">there was an error rendering the project. make sure to NOT open this page directly, and follow the links from <a href="/homePage dir/homePage.html">Home Page</a>.</p>
+          <p class="project-desc">there was an error rendering the project. make sure to NOT open this page directly, and follow the links from <a href="https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homepage.html">Home Page</a>.</p>
         </section>
         <section class="image">
           <img src="" alt="project screenshot">
