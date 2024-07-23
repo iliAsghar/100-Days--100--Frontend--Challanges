@@ -161,7 +161,7 @@ a:has(> .card){
 }
 
 .card__title {
-  font-size: 1.7rem;
+  font-size: clamp(1px, 150%, 1.75rem);
   color: var(--text);
   text-decoration: underline;
 }
@@ -193,8 +193,8 @@ a:has(> .card){
   line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 1s;
-  max-height: calc(3 * 1.5em);
+  line-height: 1.2;
+  max-height: calc(3 * 1.6em);
 }
 
 .projects__page-nav {
