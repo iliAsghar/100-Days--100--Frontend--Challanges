@@ -22,6 +22,14 @@ export const projects = [
     screenshot: '/project screenshots/3.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/003-%20Fullscreen%20Nav%20Menu/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/003-%20Fullscreen%20Nav%20Menu'
+  },
+  {
+    id: 4,
+    title: 'Custom Slider Input',
+    summary: "In this project, I built a custom slider input with a tooltip that shows the value (0%-100%). It was a bit tricky to style because the tooltip didn’t always line up with the handle on smaller screens. I made some tweaks and got it to a pretty good place, but there might still be a tiny offset on mobile screens.",
+    screenshot: '/project screenshots/4.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/004-%20Custom%20Slider%20Input/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/004-%20Custom%20Slider%20Input'
   }
 ];
 
