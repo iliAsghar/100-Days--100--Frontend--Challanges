@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255,249,249);
+  background: radial-gradient(circle, rgba(255,249,249,1) 0%, rgba(232,232,232,1) 100%);
+}
+
+.wrapper {
+  min-height: 250px;
+  max-height: 30vh;
+  padding: 2rem 2rem;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  flex-direction: column;
+}
+
+.main-text {
+  white-space: nowrap;
+  font-family: "Comfortaa", sans-serif;
+  font-size: clamp(4rem, calc(5vw + 1rem), 6.5rem);
+  color: #30355e;
+}
+
+.words {
+  font-family: "Permanent Marker", cursive;
+  font-size: clamp(4rem, calc(5vw + 1rem), 6.5rem);
+  color: #FC3C3C;
+  overflow: hidden;
+}
+
+.words span {
+  /* border: 1px solid orange; */
+  text-align: center;
+  height: 100%;
+  display: block;
+  animation: spin-words 15s infinite;
+}
+
+@keyframes spin-words {
+
+  10% {
+    transform: translateY(-107%);
+  }
+  15% {
+    transform: translateY(-100%);
+  }
+
+
+  25% {
+    transform: translateY(-207%);
+  }
+  30% {
+    transform: translateY(-200%);
+  }
+
+
+  40% {
+    transform: translateY(-307%);
+  }
+  45% {
+    transform: translateY(-300%);
+  }
+
+
+  55% {
+    transform: translateY(-407%);
+  }
+  60% {
+    transform: translateY(-400%);
+  }
+
+
+  70% {
+    transform: translateY(-507%);
+  }
+  75% {
+    transform: translateY(-500%);
+  }
+
+
+  85% {
+    transform: translateY(-607%);
+  }
+  90% {
+    transform: translateY(-600%);
+  }
+
+  100% {
+    transform: translateY(-600%);
+  }
+}
+
+@media (min-width: 450px) {
+  .wrapper {
+    min-height: 120px;
+
+    flex-direction: row;
+  }
+}

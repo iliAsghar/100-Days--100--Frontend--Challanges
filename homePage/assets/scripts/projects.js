@@ -30,6 +30,14 @@ export const projects = [
     screenshot: '/project screenshots/4.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/004-%20Custom%20Slider%20Input/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/004-%20Custom%20Slider%20Input'
+  },
+  {
+    id: 5,
+    title: 'Rotating Words',
+    summary: "In this project, I created a cool-looking (I think 😊) word rotation animation using only HTML and CSS. Initially, this project was not supposed to be responsive on mobile, but I tried my best to make it work. if there is any problems, please let me know.",
+    screenshot: '/project screenshots/5.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/005-%20Rotating%20Words/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/005-%20Rotating%20Words'
   }
 ];
 
