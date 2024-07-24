@@ -42,6 +42,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 I've used these sources to recreate projects/get inspired . check 'em out! :
 1. [HTML5, CSS3 and JavaScript 100+ Projects For Beginners
 (HuXn WebDev)](https://youtube.com/playlist?list=PLSDeUiTMfxW7lm7P7GZ8qtNFffHAR5d_w&si=bHYhWvkNjxRXMYnb)
+2. [Coding Artist](https://www.youtube.com/@CodingArtist) on Youtube
 
 ## 📧 Contact
 
