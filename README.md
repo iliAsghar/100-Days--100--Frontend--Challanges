@@ -31,6 +31,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 003- Fullscreen Nav Menu [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=3)]
 - 004- Custom Slider Input [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=4)]
 - 005- Rotating Words [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=5)]
+- 006- Twitter Follow Clone [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=6)]
 
 ## 🎯 Goals
 

@@ -38,6 +38,14 @@ export const projects = [
     screenshot: '/project screenshots/5.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/005-%20Rotating%20Words/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/005-%20Rotating%20Words'
+  },
+  {
+    id: 6,
+    title: 'Twitter Follow Clone',
+    summary: `This project is a clone of Twitter's "Follow Suggestion" page, featuring a theme toggle button. Throughout this project, I utilized various techniques such as custom components, APIs, fetch requests, and theme switching. It was an engaging project, and I believe I performed well.`,
+    screenshot: '/project screenshots/6.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/006-%20Twitter%20Follow%20Clone/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/006-%20Twitter%20Follow%20Clone'
   }
 ];
 
