@@ -61,13 +61,9 @@ class User extends HTMLElement {
 
 window.customElements.define('user-card',User)
 
-document.querySelector('.show-more').addEventListener('click',() => {
-  location.href = location.href;
-})
 
 const themeBtn = document.querySelector('.theme-control-btn');
 let darkTheme = false;
-
 themeBtn.addEventListener('click',() => {
   darkTheme = !darkTheme;
 
