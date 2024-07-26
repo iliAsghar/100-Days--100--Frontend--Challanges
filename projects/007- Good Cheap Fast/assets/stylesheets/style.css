@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --highlight-clr: #e0245e;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF5E1;
+  padding: 2rem;
+  user-select: none;
+}
+
+.container {
+  width: fit-content;
+  /* background-color: lightcyan; */
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: clamp(1.75rem, 3.5vw, 1000px);
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.option {
+  position: relative;
+  margin-inline: auto;
+  display: flex;
+  margin-left: 50%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.option__checkbox {
+  visibility: hidden;
+}
+
+.option__slider {
+  cursor: pointer;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 140%;
+  aspect-ratio: 2/1;
+  /* width: 6.5rem; */
+  border-radius: 200px;
+  background: rgb(166,166,166);
+  /* background: radial-gradient(circle, rgba(166,166,166,1) 0%, rgba(71,71,71,1) 100%); */
+  transition: all 250ms ease-in-out;
+  overflow: hidden;
+}
+
+.option__checkbox:checked + .option__slider {
+  background: rgb(160,21,62);
+}
+
+.option__slider-ball {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  height: 90%;
+  aspect-ratio: 1;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.656);
+  transition: all 250ms ease-in-out;
+}
+
+.option__checkbox:checked + .option__slider .option__slider-ball {
+  left: calc(100% - 3px);
+  transform: translate(-100%, -50%);
+}
+
+.option__slider-ball:active {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.63) !important;
+  transition: all 250ms ease-in-out,
+  box-shadow 100ms ease-in-out;
+}
+
+.option__name {
+  font-size: calc(1vw + 1rem);
+}

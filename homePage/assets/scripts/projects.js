@@ -46,6 +46,14 @@ export const projects = [
     screenshot: '/project screenshots/6.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/006-%20Twitter%20Follow%20Clone/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/006-%20Twitter%20Follow%20Clone'
+  },
+  {
+    id: 7,
+    title: 'Good Cheap Fast',
+    summary: `This project is a visualization of the Triple Constraint Theory. This was an easy project, and the main reason I chose to work on it is that I find it fun to tinker with buttons.`,
+    screenshot: '/project screenshots/7.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/007-%20Good%20Cheap%20Fast/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/007-%20Good%20Cheap%20Fast'
   }
 ];
 

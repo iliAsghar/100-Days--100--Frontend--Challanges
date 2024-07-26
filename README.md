@@ -32,6 +32,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 004- Custom Slider Input [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=4)]
 - 005- Rotating Words [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=5)]
 - 006- Twitter Follow Clone [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=6)]
+- 007- Good Cheap Fast [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=7)]
 
 ## 🎯 Goals
 
@@ -43,7 +44,8 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 I've used these sources to recreate projects/get inspired . check 'em out! :
 1. [HTML5, CSS3 and JavaScript 100+ Projects For Beginners
 (HuXn WebDev)](https://youtube.com/playlist?list=PLSDeUiTMfxW7lm7P7GZ8qtNFffHAR5d_w&si=bHYhWvkNjxRXMYnb)
-2. [Coding Artist](https://www.youtube.com/@CodingArtist) on Youtube
+2. [Coding Artist](https://www.youtube.com/@CodingArtist) on Youtube.
+3. [bradtraversy's 50projects50days](https://github.com/bradtraversy/50projects50days) github repository.
 
 ## 📧 Contact
 
