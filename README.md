@@ -33,6 +33,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 005- Rotating Words [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=5)]
 - 006- Twitter Follow Clone [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=6)]
 - 007- Good Cheap Fast [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=7)]
+- 008- Digit Input Field [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=8)]
 
 ## 🎯 Goals
 

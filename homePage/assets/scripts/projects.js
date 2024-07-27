@@ -54,6 +54,14 @@ export const projects = [
     screenshot: '/project screenshots/7.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/007-%20Good%20Cheap%20Fast/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/007-%20Good%20Cheap%20Fast'
+  },
+  {
+    id: 8,
+    title: 'Digit Field Input',
+    summary: `I've always wondered how these single-digit code inputs were built. In this project, I had the chance to create one! I wanted it to look like a pixel arcade game menu, so I went a little crazy with the backgrounds and fonts. It was VERY fun to make, and I hope you like it!`,
+    screenshot: '/project screenshots/8.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/008-%20Digit%20Input%20Field/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/008-%20Digit%20Input%20Field'
   }
 ];
 
