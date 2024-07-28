@@ -62,6 +62,14 @@ export const projects = [
     screenshot: '/project screenshots/8.png',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/008-%20Digit%20Input%20Field/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/008-%20Digit%20Input%20Field'
+  },
+  {
+    id: 9,
+    title: 'Increment Counters',
+    summary: `In this project, I made three incremental counters that show X, Instagram, and GitHub followers. I'm mostly proud of my styling in this project, and I think it was fun to build.`,
+    screenshot: '/project screenshots/9.png',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/009-%20Increment%20Counters/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/009-%20Increment%20Counters'
   }
 ];
 
