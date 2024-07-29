@@ -20,7 +20,7 @@ function navigateToPage(page){
     newPageHTML += `
       <a href="./homePage/projectPage/projectPage.html?id=${project.id}">
         <li class="card">
-          <img src=".${project.screenshot}" alt="${project.title}'s screenshot" class="card__image">
+          <img src=".${project.screenshotSmall}" alt="${project.title}'s screenshot" class="card__image">
           <div class="card__desc">
             <h3 class="card__title">#${Index} - ${project.title}</h3>
             <p class="card__summary">${project.summary}</p>
