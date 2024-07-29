@@ -85,7 +85,7 @@ export const projects = [
     title: 'Blurry Loading',
     summary: `In this project, I created a dynamic loading animation showing a percentage from 0 to 100 with decreasing blur and fading color effects. It was simple enough but fun to build.`,
     screenshot: '/project screenshots/10.png',
-    screenshotSmall: '/project screenshots/10.png',
+    screenshotSmall: '/project screenshots/10s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/010-%20Blurry%20Loading/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/010-%20Blurry%20Loading'
   }
