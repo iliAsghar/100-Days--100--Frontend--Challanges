@@ -23,7 +23,6 @@ body {
   color: white;
   max-width: 320px;
   text-align: justify;
-  background-color: transparent;
 }
 
 @property --angle {
