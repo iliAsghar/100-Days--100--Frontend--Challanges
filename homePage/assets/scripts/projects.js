@@ -88,7 +88,16 @@ export const projects = [
     screenshotSmall: '/project screenshots/10s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/010-%20Blurry%20Loading/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/010-%20Blurry%20Loading'
-  }
+  },
+  {
+    id: 11,
+    title: 'Border Animations',
+    summary: `In this project, I created a cool-looking border animation using gradients. This was honestly quite simple, but it turned out looking really good. I will use this technique more often.`,
+    screenshot: '/project screenshots/11.png',
+    screenshotSmall: '/project screenshots/11s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/011-%20Border%20Animations/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/011-%20Border%20Animations'
+  },
 ];
 
 
