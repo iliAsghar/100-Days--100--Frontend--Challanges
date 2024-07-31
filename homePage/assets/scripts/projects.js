@@ -98,6 +98,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/011-%20Border%20Animations/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/011-%20Border%20Animations'
   },
+  {
+    id: 12,
+    title: 'Theme Toggler',
+    summary: `In this project i made a simple theme toggler button using HTML, CSS & JS.`,
+    screenshot: '/project screenshots/12.png',
+    screenshotSmall: '/project screenshots/12s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/012-%20Theme%20Toggler/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/012-%20Theme%20Toggler'
+  },
 ];
 
 

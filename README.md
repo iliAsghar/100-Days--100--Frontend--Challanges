@@ -37,6 +37,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 009- Increment Counters [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=9)]
 - 010- Blurry Loading [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=10)]
 - 011- Border Animations [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=11)]
+- 012- Theme Toggler [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=12)]
 
 ## 🎯 Goals
 
