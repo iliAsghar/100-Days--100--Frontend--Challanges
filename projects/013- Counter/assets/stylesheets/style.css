@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #B4D6CD;
+  font-family: "Roboto Mono";
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.counter {
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px -5px #1A5319;
+}
+
+.counter__count {
+  font-size: min(4rem + 10vw, 10rem);
+  color: #379777;
+}
+
+.counter__buttons {
+  font-size: min(1rem + 2vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: calc(.5rem + .4vw);
+}
+
+.counter__button {
+  border-radius: 5px;
+  padding: .2em 1em;
+  background-color: #55AD9B;
+  color: #F1F8E8;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.counter__button:active {
+  background-color: #438b7d !important;
+  transition: none;
+}
+
+@media (min-width: 270px) {
+  .counter__buttons {
+    flex-direction: row;
+  }
+
+}
+
+@media (hover:hover) {
+  .counter__button:hover {
+    background-color: #5bc3ae;
+  }  
+}
