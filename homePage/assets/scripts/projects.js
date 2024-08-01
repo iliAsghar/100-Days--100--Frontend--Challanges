@@ -113,8 +113,8 @@ export const projects = [
     summary: `In project #13 i made a simple counter using HTML, CSS & JS.`,
     screenshot: '/project screenshots/13.png',
     screenshotSmall: '/project screenshots/13s.jpg',
-    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/012-%20Counter/',
-    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/012-%20Counter'
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/013-%20Counter/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/013-%20Counter'
   },
 ];
 
