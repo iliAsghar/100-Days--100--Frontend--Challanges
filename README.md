@@ -53,7 +53,7 @@ I've used these sources to recreate projects/get inspired . check 'em out! :
 (HuXn WebDev)](https://youtube.com/playlist?list=PLSDeUiTMfxW7lm7P7GZ8qtNFffHAR5d_w&si=bHYhWvkNjxRXMYnb)
 2. [Coding Artist](https://www.youtube.com/@CodingArtist) on Youtube.
 3. [bradtraversy's 50projects50days](https://github.com/bradtraversy/50projects50days) github repository.
-4. some of [@OnlineTutorialsYT 's videos](https://github.com/bradtraversy/50projects50days) on Youtube.
+4. some of [@OnlineTutorialsYT 's videos](https://www.youtube.com/@OnlineTutorialsYT) on Youtube.
 
 
 ## 📧 Contact
