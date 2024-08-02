@@ -116,6 +116,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/013-%20Counter/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/013-%20Counter'
   },
+  {
+    id: 14,
+    title: 'Accordion Menu',
+    summary: `In today’s project, I built an accordion menu that opens and closes. I added a few animations to make it look nicer.`,
+    screenshot: '/project screenshots/14.png',
+    screenshotSmall: '/project screenshots/14s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/014-%20Accordion%20Menu/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/014-%20Accordion%20Menu'
+  },
 ];
 
 

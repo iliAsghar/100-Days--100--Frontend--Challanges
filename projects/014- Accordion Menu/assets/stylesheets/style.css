@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+
+  /* had to do this because the accordion was moving too much */
+  /* align-items: center; */
+  padding: 2rem;
+  padding-top: 4rem;
+  background-color: #000000b3;
+  background-image: url(../images/eugene-golovesov-fV-_EvVXlzQ-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: saturation;
+  backdrop-filter: blur(20px);
+  font-family: "Finlandica", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.accordion {
+  max-width: 50rem;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #F6F7F8;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: fit-content;
+}
+
+.accordion__title {
+  text-align: center;
+  font-size: min(2rem + 2vw, 3.5rem);
+  margin-bottom: .5rem;
+  color: #2A2A4F;
+}
+
+.accordion__item {
+  overflow: hidden;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+}
+
+.accordion__item__label {
+  background-color: #2A2A4F;
+  color: white;
+  padding: .5rem 1rem;
+  font-size: min(1vw + 1.25rem, 2.25rem);
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.accordion__item__arrow {
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 500ms ease-in-out;
+}
+
+.accordion__item__content {
+  max-height: 0;
+  background-color: #C3C4CE;
+  border-bottom: 1px solid #2A2A4F;
+  padding: 0;
+  font-size: min(1vw + 1rem, 1.75rem);
+  transition: all 500ms ease-in-out;
+  padding: 0rem 1rem;
+}
+
+.accordion__item--active .accordion__item__content {
+  padding: .5rem 1rem 1rem;
+  max-height: 200px;
+  border-bottom: 4px solid #2A2A4F; 
+}
+
+.accordion__item--active .accordion__item__arrow {
+  transform: translateY(-50%) rotate(180deg);
+}
