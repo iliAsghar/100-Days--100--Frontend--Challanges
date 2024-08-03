@@ -128,7 +128,7 @@ export const projects = [
   {
     id: 15,
     title: 'Digital Clock',
-    summary: `-`,
+    summary: `In this mini project, i made a digital clock that updates based on the local time of the device.`,
     screenshot: '/project screenshots/15.png',
     screenshotSmall: '/project screenshots/15s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/015-%20Digital%20Clock/',

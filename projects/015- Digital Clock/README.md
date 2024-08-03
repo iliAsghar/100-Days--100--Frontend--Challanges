@@ -1,4 +1,4 @@
-# 🚀 Accordion Menu - Day 14
+# 🚀 Digital Clock - Day 15
 
 ## 📋 Table of Contents
 
@@ -14,7 +14,7 @@
 
 ## 📖 Description
 
-In today’s project, I built an accordion menu that opens and closes. I added a few animations to make it look nicer.
+In this mini project, i made a digital clock that updates based on the local time of the device. 
 
 ## 🎯 Project Goals
 
@@ -22,28 +22,28 @@ to learn!
 
 ## 🛠 Challenges Faced
 
-noooo.
+ye- no.
 
 ## 📸 Screenshots
 
-![screenshot](<../../project screenshots/14.png>)
+![screenshot](<../../project screenshots/15.png>)
 
 ## 🔗 Links
 
-- [Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/014-%20Accordion%20Menu/)
-- [GitHub Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/014-%20Accordion%20Menu)
+- [Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/015-%20Digital%20Clock/)
+- [GitHub Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/015-%20Digital%20Clock)
 
 ## 📚 What I Learned
 
-I’d never built an accordion menu before, so this was new to me!
+\-
 
 ## 🚀 Future Improvements
 
-\-
+if i were to make this project again, i would like to add an option to switch between AM & PM. also some flashy animation when a number updates could be good.
 
 ## 🗃️ Source
 
-got the project description from [This Video](https://www.youtube.com/watch?v=dPLHi7tsoFU).
+got the project description from [This Video](https://www.youtube.com/watch?v=yvWzGD8v3Qc&t=161s).
 
 ## 👤 Author
 

@@ -40,6 +40,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 012- Theme Toggler [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=12)]
 - 013- Counter [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=13)]
 - 014- Accordion Menu [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=14)]
+- 015- Digital Clock [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=15)]
 
 ## 🎯 Goals
 
@@ -54,6 +55,7 @@ I've used these sources to recreate projects/get inspired . check 'em out! :
 2. [Coding Artist](https://www.youtube.com/@CodingArtist) on Youtube.
 3. [bradtraversy's 50projects50days](https://github.com/bradtraversy/50projects50days) github repository.
 4. some of [@OnlineTutorialsYT 's videos](https://www.youtube.com/@OnlineTutorialsYT) on Youtube.
+4. some of [@CodingSnow 's videos](https://www.youtube.com/@CodingSnow) on Youtube.
 
 
 ## 📧 Contact
