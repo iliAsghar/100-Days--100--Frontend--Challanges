@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  font-family: "Rubik", sans-serif;
+  background-color: #F8EDED;
+  background: rgb(12,12,38);
+  background: linear-gradient(21deg, rgb(0, 0, 0) 0%, rgb(24, 8, 75) 100%);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.clock {
+  color: white;
+  text-align: center;
+}
+
+.clock__time {
+  font-weight: 800;
+  font-size: min(5rem + 10vw, 10rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock__time__hour,
+.clock__time__minute,
+.clock__time__second {
+  background: rgb(251,119,60);
+  background: linear-gradient(186deg, rgba(251,119,60,1) 0%, rgba(235,54,120,1) 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.clock__time__colon {
+  display: none;
+}
+
+.clock__time__aside {
+  width: 70%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock__date {
+  font-size: min(1.25rem + 2vw, 3rem);
+  margin-top: 1rem;
+}
+
+@media (min-width: 575px) {
+  .clock__time {
+    flex-direction: row;
+  }
+
+  .clock__time__colon {
+    display: block;
+  }
+
+  .clock__time__aside {
+    margin-left: 1rem;
+    flex-direction: column;
+  }
+
+  .clock__date {
+    margin-top: -2rem;
+  }
+}

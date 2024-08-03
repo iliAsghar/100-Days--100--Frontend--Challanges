@@ -125,6 +125,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/014-%20Accordion%20Menu/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/014-%20Accordion%20Menu'
   },
+  {
+    id: 15,
+    title: 'Digital Clock',
+    summary: `-`,
+    screenshot: '/project screenshots/15.png',
+    screenshotSmall: '/project screenshots/15s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/015-%20Digital%20Clock/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/015-%20Accordion%20Menu'
+  }
 ];
 
 
