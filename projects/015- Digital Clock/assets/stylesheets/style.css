@@ -68,6 +68,7 @@ body {
   .clock__time__aside {
     margin-left: 1rem;
     flex-direction: column;
+    width: 4rem;
   }
 
   .clock__date {
