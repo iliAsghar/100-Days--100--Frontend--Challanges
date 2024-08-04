@@ -132,7 +132,16 @@ export const projects = [
     screenshot: '/project screenshots/15.png',
     screenshotSmall: '/project screenshots/15s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/015-%20Digital%20Clock/',
-    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/015-%20Accordion%20Menu'
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/015-%20Digital%20Clock'
+  },
+  {
+    id: 16,
+    title: 'Button Hovers',
+    summary: `Today, I played around with hover effects on buttons. It was a cool project overall, just not a hard one. I wasn't feeling too well, so it was a nice, low-effort task. <br> if you want to view the hover effects on a mobile device, tapping on them does the trick. `,
+    screenshot: '/project screenshots/16.png',
+    screenshotSmall: '/project screenshots/16s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/016-%20Button%20Hovers/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/016-%20Button%20Hovers'
   }
 ];
 
