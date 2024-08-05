@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 8%;
+  background-color: #0d1d1d;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Exo 2", sans-serif;
+}
+
+.title {
+  font-size: min(3rem + 2vw, 5rem);
+  margin-bottom: 2rem;
+  color: #b6ffed;
+}
+
+.title__generate {
+  text-decoration: underline;
+  position: relative;
+  width: max-content;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.title__pointer {
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 70%;
+  left: 80%;
+  font-size: min(2rem + 1vw, 5rem);
+  color: rgb(255, 98, 59);
+  animation: pointer-grow 3s linear infinite;
+  transform-origin: top;
+}
+
+@keyframes pointer-grow {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(-10deg) scale(1.2);
+  }
+}
+
+.password-field {
+  position: relative;
+  width: 60%;
+  background-color: #7bb4a5;
+  border: 1px solid #a2e2d2;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  user-select: none;
+  color: rgb(4, 72, 4);
+}
+
+.password-field__password {
+  color: rgb(4, 72, 4);
+}
+
+.password-field__copy {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+@media (hover:hover) {
+  .password-field__copy:hover {
+    color: #188181;
+  }
+
+  .title__generate:hover {
+    color: #27d2d2;
+  }
+}

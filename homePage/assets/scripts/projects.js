@@ -142,6 +142,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/16s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/016-%20Button%20Hovers/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/016-%20Button%20Hovers'
+  },
+  {
+    id: 17,
+    title: 'Password Generator',
+    summary: `This project is a random password generator that uses JS to randomise characters to make a password!`,
+    screenshot: '/project screenshots/17.png',
+    screenshotSmall: '/project screenshots/17s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/017-%20Password%20Generator/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/017-%20Password%20Generator'
   }
 ];
 
