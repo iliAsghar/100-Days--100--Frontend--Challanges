@@ -151,6 +151,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/17s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/017-%20Password%20Generator/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/017-%20Password%20Generator'
+  },
+  {
+    id: 18,
+    title: 'Toast Notification',
+    summary: `This project is all about toast notifications! you can generate one using the button.`,
+    screenshot: '/project screenshots/18.png',
+    screenshotSmall: '/project screenshots/18s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/018-%20Toast%20Notification/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/018-%20Toast%20Notification'
   }
 ];
 

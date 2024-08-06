@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #d7f4ed;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Exo 2", sans-serif;
+}
+
+.generate-button {
+  border: none;
+  padding: 2rem 3rem;
+  font-size: min(1rem + 2vw, 2rem);
+  border-radius: 5px;
+  background-color: #ed5e71;
+  border: 2px solid #ed5e71;
+  color: white;
+  transition: all 50ms ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.generate-button:active {
+  transform: scale(.95);
+}
+
+.generate-button--disabled {
+  background-color: rgb(161, 161, 161);
+  border-color: rgb(204, 202, 202);
+  color: rgb(223, 223, 223);
+  cursor: not-allowed;
+}
+
+.generate-button--disabled:active {
+  transform: none !important;
+}
+
+@media (hover:hover) {
+  .generate-button:hover {
+    background-color: #f97385;
+  }
+
+  .generate-button--disabled:hover {
+    background-color: rgb(161, 161, 161);
+  }
+}
+
+.toasts {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-size: min(1rem + 2vw, 2rem);
+  gap: .5rem;
+}
+
+.toast {
+  padding: 2rem 3rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.toast--info {
+  background-color: rgb(65, 191, 216);
+}
+
+.toast--error {
+  background-color: rgb(212, 85, 85);
+}
+
+.toast--success {
+  background-color: rgb(56, 173, 56);
+}
