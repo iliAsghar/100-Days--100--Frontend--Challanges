@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #111;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Exo 2", sans-serif;
+}
+
+.nav__list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  background-color: #ffffff;
+  width: 17rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid #E43D12;
+  transform: rotate(90deg) scale(0);
+  transition: all 250ms linear;
+}
+
+.nav__list--active {
+  transform: rotate(0) scale(1);
+}
+
+.nav__item {
+  position: absolute;
+  font-size: 1.75rem;
+  text-align: center;
+  transition: all 100ms ease-in-out;
+  color: rgb(46, 46, 46);
+}
+
+.nav__item:nth-child(1) {
+  left: 2.25rem;
+  top: 4.5rem;
+}
+
+.nav__item:nth-child(2) {
+  left: 50%;
+  top: 1.25rem;
+  transform: translateX(-50%);
+}
+
+.nav__item:nth-child(3) {
+  right: 2.25rem;
+  top: 4.5rem;
+}
+
+.nav__item:nth-child(4) {
+  left: 2.25rem;
+  bottom: 4.5rem;
+}
+
+.nav__item:nth-child(5) {
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+}
+
+.nav__item:nth-child(6) {
+  right: 2.25rem;
+  bottom: 4.5rem;
+}
+
+.nav__item__link {
+  color: inherit;
+}
+
+.nav__toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  border-radius: 100px;
+  border: 3px solid #f05028;
+  color: rgb(46, 46, 46);
+  background-color: rgb(255, 241, 236);
+  width: 7rem;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.nav__toggle--active {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media (hover:hover) {
+  .nav__item:hover {
+    color: #E43D12;
+  }
+
+  .nav__toggle:hover {
+    color: #E43D12;
+  }
+}

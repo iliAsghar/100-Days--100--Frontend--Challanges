@@ -160,6 +160,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/18s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/018-%20Toast%20Notification/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/018-%20Toast%20Notification'
+  },
+  {
+    id: 19,
+    title: 'Rounded Navbar',
+    summary: `In this project, I built a rounded navbar. It was engaging to create, and I think I’ll use it more in the future, especially for mobile layouts.`,
+    screenshot: '/project screenshots/19.png',
+    screenshotSmall: '/project screenshots/19s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/019-%20Rounded%20Navbar/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/019-%20Rounded%20Navbar'
   }
 ];
 
