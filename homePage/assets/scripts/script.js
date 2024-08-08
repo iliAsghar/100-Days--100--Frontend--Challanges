@@ -64,7 +64,7 @@ function renderNavigation(){
 
 function isPageAvailable(pageNum){
   let numberOfProjects = getNumberOfProjects();
-  let numberOfAvailablePages = ((numberOfProjects+20) / 20);
+  let numberOfAvailablePages = ((numberOfProjects+19) / 20);
   return pageNum <= numberOfAvailablePages;
 }
 
