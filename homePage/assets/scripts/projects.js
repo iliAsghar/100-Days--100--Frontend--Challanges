@@ -169,6 +169,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/19s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/019-%20Rounded%20Navbar/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/019-%20Rounded%20Navbar'
+  },
+  {
+    id: 20,
+    title: 'Flashlight Cursor',
+    summary: `In this project i got to build a flashlight! well, sort of. unfortunately this project does not work/show on mobile/touch screens. so- yup.`,
+    screenshot: '/project screenshots/20.png',
+    screenshotSmall: '/project screenshots/20s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/020-%20Flashlight%20Cursor/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/020-%20Flashlight%20Cursor'
   }
 ];
 
