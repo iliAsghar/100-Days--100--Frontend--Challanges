@@ -1,0 +1,228 @@
+@import url('../fonts/SomersetBarnyard/SomersetBarnyard.css');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.gallery-showcase {
+  background: radial-gradient(circle, #272f27 10%, transparent 11%),radial-gradient(circle at bottom left, #272f27 5%, transparent 6%),radial-gradient(circle at bottom right, #272f27 5%, transparent 6%),radial-gradient(circle at top left, #272f27 5%, transparent 6%),radial-gradient(circle at top right, #272f27 5%, transparent 6%);
+  background-size: 3em 3em;
+  background-color: #252525;
+  opacity: 1;
+  padding: 5rem 3rem 15rem;
+  position: relative;
+}
+
+.container {
+  padding: 3rem 2rem;
+  margin-inline: auto;
+  max-width: 110rem;
+  align-items: center;
+  display: grid;
+  grid-template: 5rem 15rem 23rem 2rem repeat(2, 20rem) / 1fr;
+  gap: 4rem;
+  grid-template-areas:  "ti"
+                        "p1"
+                        "n1"
+                        "p2"
+                        "p2"
+                        "p3";
+}
+
+.gallery-showcase__title {
+  grid-area: ti;
+  text-align: center;
+  color: #e45000;
+  font-size: min(3rem + 2vw, 5rem);
+  font-family: "Somerset barnyard", sans-serif;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.gallery-showcase__polaroid {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(246, 238, 228, 86%);
+  padding: 2rem 2rem 0;
+  background-image: url('../../images/wall\ texture.jpg');
+  background-blend-mode: lighten;
+  box-shadow:
+  inset 0 -40px 30px rgba(0,0,0,20%),
+  inset 0 30px 30px rgba(0,0,0,10%),
+  0 5px 6px 5px rgba(0,0,0,20%);
+  height: 100%;
+}
+
+.gallery-showcase__polaroid__pin {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,71.4%) 0%, rgba(185,28,28,100%) 42%, rgba(214,33,33,100%) 73%, rgba(0,0,0,68.6%) 100%);
+  width: max(10% , 4rem);
+  box-shadow: 0 10px 10px -2px #0000006b;
+}
+
+.gallery-showcase__polaroid__pin::after {
+  content: '';
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #fc0000;
+  width: 65%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 50.8%);
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(75, 2, 2, 40%);
+}
+
+.gallery-showcase__polaroid--p1 {
+  grid-area: p1;
+  transform: rotate(3deg);
+}
+
+.gallery-showcase__polaroid--p1 > .gallery-showcase__polaroid__pin {
+  top: 0;
+  left: 25%;
+  transform: translateY(-30%);
+}
+
+.gallery-showcase__polaroid--p1 > .gallery-showcase__polaroid__pin::after {
+  transform: translate(-55%, -55%);
+}
+
+.gallery-showcase__polaroid--p2 {
+  grid-area: p2;
+  transform: rotate(-1deg);
+}
+
+.gallery-showcase__polaroid--p2 > .gallery-showcase__polaroid__pin {
+  top: 0;
+  left: 60%;
+  transform: translateY(-30%);
+}
+
+.gallery-showcase__polaroid--p2 > .gallery-showcase__polaroid__pin::after {
+  transform: translate(-45%, -55%);
+}
+
+.gallery-showcase__polaroid--p3 {
+  grid-area: p3;
+  transform: rotate(4deg);
+}
+
+.gallery-showcase__polaroid--p3 > .gallery-showcase__polaroid__pin {
+  top: 0;
+  left: 30%;
+  transform: translateY(-30%);
+}
+
+.gallery-showcase__polaroid--p3 > .gallery-showcase__polaroid__pin::after {
+  transform: translate(-55%, -55%);
+}
+
+.gallery-showcase__polaroid__image {
+  height: 70%;
+  object-fit: cover;
+}
+
+.gallery-showcase__polaroid__author {
+  display: flex;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.35rem;
+  font-weight: 900;
+  height: 30%;
+}
+
+.gallery-showcase__note {
+  position: relative;
+  background-blend-mode: overlay;
+  padding: 3rem;
+  height: 100%;
+  box-shadow:
+  inset 0 -40px 30px rgba(0,0,0,20%),
+  inset 0 30px 30px rgba(0,0,0,10%),
+  0 5px 6px 5px rgba(0,0,0,20%);
+  font-family: "Permanent Marker", cursive;
+  grid-area: n1;
+  transform: rotate(-3deg);
+  background-color: #ffe89b;
+  background-size: 12px 12px;
+  background-image:  repeating-linear-gradient(0deg, #d2b477, #d2b477 0.6000px, #ffe89b 0.6000px, #ffe89b);
+}
+
+.gallery-showcase__note::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  top: 0;
+  left: 23%;
+  clip-path: polygon(100% 98%, 97% 80%, 100% 65%, 96% 50%, 100% 36%, 95% 23%, 100% 4%, 0% 1%, 3% 19%, 0% 35%, 4% 51%, 0% 66%, 3% 82%, 0 96%);
+  box-shadow: 0 3px 25px 10px #000;
+  transform: translateY(-50%) rotate(2deg);
+  background-color: rgba(241, 147, 6, 85%);
+  background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #e87a00, #e87a00 50%, #F4B448 50%);
+  background-size: 10px 10px;
+}
+
+.note-container {
+  overflow: hidden;
+  height: 100%;
+}
+
+.gallery-showcase__note__title {
+  font-size: min(2vw + 1.5rem, 3.25rem);
+  color: #1f1f1f;
+  margin-bottom: calc(.4vw);
+}
+
+.gallery-showcase__note__text {
+  font-family: "Indie Flower", cursive;
+  font-size: min(1vw + 1.5rem, 1.75rem);
+  font-weight: 900;
+  color: #130d6b;
+  word-break: break-all;
+}
+
+.gallery-showcase__note__title:focus-visible,
+.gallery-showcase__note__text:focus-visible {
+  outline: none;
+}
+
+.pingu {
+  position: absolute;
+  bottom: 0;
+  width: min(20rem + 5vw, 30rem);
+}
+
+@media (500px <= width < 800px) {
+  .container {
+    display: grid;
+    grid-template: 10rem repeat(3, 20rem) / 30% repeat(2, 1fr) 30%;
+    gap: 2rem, 3rem;
+    grid-template-areas: "ti  ti ti  ti"
+                         ".  p1 p1  p1"
+                         "n1 n1  p2 p2"
+                         "p3 p3 p3 p3";
+  }
+}
+
+@media (width >= 800px) {
+  .container {
+    display: grid;
+    grid-template: 10rem repeat(3, 30rem) / 30% repeat(2, 1fr) 30%;
+    gap: 2rem, 3rem;
+    grid-template-areas: "ti  ti ti  ti"
+                         "n1  n1 .  p1"
+                         ".  .  p2 p2"
+                         "p3 p3 p3 in";
+  }
+}
