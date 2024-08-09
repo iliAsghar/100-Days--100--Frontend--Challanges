@@ -46,6 +46,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 018- Toast Notification [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=18)]
 - 019- Rounded Navbar [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=19)]
 - 020- Flashlight Cursor [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=20)]
+- 021- Gallery Showcase [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=21)]
 
 ## 🎯 Goals
 

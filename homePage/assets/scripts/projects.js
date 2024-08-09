@@ -178,6 +178,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/20s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/020-%20Flashlight%20Cursor/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/020-%20Flashlight%20Cursor'
+  },
+  {
+    id: 21,
+    title: 'Gallery Showcase',
+    summary: `Today i was working on another project, and i made a gallery showcase containing some polaroids. i thought it would be fun to submit it as today's mini-project.`,
+    screenshot: '/project screenshots/21.png',
+    screenshotSmall: '/project screenshots/21s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/021-%20Gallery%20Showcase/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/021-%20Gallery%20Showcase'
   }
 ];
 
