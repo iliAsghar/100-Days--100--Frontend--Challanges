@@ -1,0 +1,58 @@
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #d4f4cf;
+  padding: 3rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2.25/1.5;
+  max-width: 75rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+
+.image--1 {
+  clip-path: polygon(0% 0%, 25% 0%, 40% 100%, 0% 100%);
+}
+
+.image--2 {
+  clip-path: polygon(25% 0%, 75% 0%, 60% 100%, 40% 100%);
+}
+
+.image--3 {
+  clip-path: polygon(75% 0%, 100% 0%, 100% 100%, 60% 100%);
+}
+
+.image:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 100;
+}
+
+.image:not(:hover) {
+  animation: zIndexHack 200ms;
+}
+
+@keyframes zIndexHack {
+  0%, 100% {
+    z-index: 10;
+  }
+}

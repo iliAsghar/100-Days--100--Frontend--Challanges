@@ -187,6 +187,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/21s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/021-%20Gallery%20Showcase/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/021-%20Gallery%20Showcase'
+  },
+  {
+    id: 22,
+    title: 'Gallery Showcase',
+    summary: `In this project i made a cool looking Image Mosaic thing with an expanding hover animation on the images. sadly this project does not work on mobile screens.`,
+    screenshot: '/project screenshots/22.png',
+    screenshotSmall: '/project screenshots/22s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/022-%20Image%20Mosaic/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/022-%20Image%20Mosaic'
   }
 ];
 
