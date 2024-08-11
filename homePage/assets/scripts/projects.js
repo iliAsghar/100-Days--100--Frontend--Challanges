@@ -196,6 +196,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/22s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/022-%20Image%20Mosaic/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/022-%20Image%20Mosaic'
+  },
+  {
+    id: 23,
+    title: 'Random Emojies',
+    summary: `This project is all about emojis! Well, technically more than one. Just hover over the little Goob on the page to see what happens!`,
+    screenshot: '/project screenshots/23.png',
+    screenshotSmall: '/project screenshots/23s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/023-%20Random%20Emojies/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/023-%20Random%20Emojies'
   }
 ];
 
