@@ -49,6 +49,7 @@ i've made a homePage for easier access and better UI! you can check it out [Here
 - 021- Gallery Showcase [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=21)]
 - 022- Image Mosaic [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=22)]
 - 023- Random Emojies [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=23)]
+- 024- Keypress Info [[View](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/homePage/projectPage/projectPage.html?id=24)]
 
 ## 🎯 Goals
 

@@ -205,6 +205,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/23s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/023-%20Random%20Emojies/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/023-%20Random%20Emojies'
+  },
+  {
+    id: 24,
+    title: 'Keypress Info',
+    summary: `This project listens for any keypress and logs it's information like key, keycode & code. this project does not work on mobile screens.`,
+    screenshot: '/project screenshots/24.png',
+    screenshotSmall: '/project screenshots/24s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/024-%20Keypress%20Info/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/024-%20Keypress%20Info'
   }
 ];
 
