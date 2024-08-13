@@ -214,6 +214,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/24s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/024-%20Keypress%20Info/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/024-%20Keypress%20Info'
+  },
+  {
+    id: 25,
+    title: 'Scroll Indicator',
+    summary: `In this project, we created a visual bar that tracks the user's scrolling progress. a fun one!`,
+    screenshot: '/project screenshots/25.png',
+    screenshotSmall: '/project screenshots/25s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/025-%20Scroll%20Indicator/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/025-%20Scroll%20Indicator'
   }
 ];
 

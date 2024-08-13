@@ -1,4 +1,4 @@
-# 🚀 Keypress Info - Day 24
+# 🚀 Scroll Indicator - Day 25
 
 ## 📋 Table of Contents
 
@@ -13,8 +13,7 @@
 - [Author](#👤-author)
 
 ## 📖 Description
-
-This project listens for any keypress and logs it's information like key, keycode & code. this project does not work on mobile screens.
+In this project, we created a visual bar that tracks the user's scrolling progress. a fun one!
 
 ## 🎯 Project Goals
 
@@ -26,12 +25,12 @@ to learn!
 
 ## 📸 Screenshots
 
-![screenshot](<../../project screenshots/24.png>)
+![screenshot](<../../project screenshots/25.png>)
 
 ## 🔗 Links
 
-- [Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/024-%20Keypress%20Info/)
-- [GitHub Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/024-%20Keypress%20Info)
+- [Live Demo](https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/025-%20Scroll%20Indicator/)
+- [GitHub Repository](https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/025-%20Scroll%20Indicator)
 
 ## 📚 What I Learned
 
@@ -43,7 +42,7 @@ to learn!
 
 ## 🗃️ Source
 
-got the project description from nowhere.
+got the project description from [This Video](https://www.youtube.com/watch?v=6pUjcXYR6oI).
 
 ## 👤 Author
 
