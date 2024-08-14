@@ -223,6 +223,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/25s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/025-%20Scroll%20Indicator/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/025-%20Scroll%20Indicator'
+  },
+  {
+    id: 26,
+    title: 'Character Counter',
+    summary: `This project counts the number of characters in an input and maxes it to a certain number.`,
+    screenshot: '/project screenshots/26.png',
+    screenshotSmall: '/project screenshots/26s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/026-%20Character%20Counter/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/026-%20Character%20Counter'
   }
 ];
 
