@@ -232,6 +232,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/26s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/026-%20Character%20Counter/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/026-%20Character%20Counter'
+  },
+  {
+    id: 27,
+    title: 'Drag And Drop',
+    summary: `This project handles drag & drop of items between two boxes (zones). handy!`,
+    screenshot: '/project screenshots/27.png',
+    screenshotSmall: '/project screenshots/27s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/027-%20Drag%20And%20Drop/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/027-%20Drag%20And%20Drop'
   }
 ];
 
