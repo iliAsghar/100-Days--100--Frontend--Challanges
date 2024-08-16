@@ -241,6 +241,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/27s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/027-%20Drag%20And%20Drop/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/027-%20Drag%20And%20Drop'
+  },
+  {
+    id: 28,
+    title: 'Heart Beat',
+    summary: `This project features a simple heartbeat animation that can be used across various pages for different purposes. Today, I didn't have much time or energy to code, so I kept it simple.`,
+    screenshot: '/project screenshots/28.png',
+    screenshotSmall: '/project screenshots/28s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/028-%20Heart%20Beat/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/028-%20Heart%20Beat'
   }
 ];
 
