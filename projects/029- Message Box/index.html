@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project #029 - Message Box</title>
+  <link rel="stylesheet" href="../!global assets/reset.css">
+  <link rel="stylesheet" href="./assets/stylesheets/style.css">
+  <link rel="shortcut icon" href="../../homePage/images/icons/icon2.0.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/81541dc3f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <form action="#" class="form">
+    <div class="form__header">
+      <h4 class="form__title">Send us a message</h4>
+      <div class="form__close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+    <div class="form__content">
+      <label class="form__label">
+        <p>Your name <span class="red-star">*</span></p>
+        <input class="form__input" type="text" minlength="3" required placeholder="John">
+      </label>
+      <label class="form__label">
+        <p>Email address <span class="red-star">*</span></p>
+        <input class="form__input" type="email" required placeholder="John.joe@gmail.com">
+      </label>
+      <label class="form__label">
+        <p>What can we do for you? <span class="red-star">*</span></p>
+        <textarea class="form__input form__input--textarea" minlength="10" required placeholder="Type your message here"></textarea>
+      </label>
+      <label class="form__label">
+        <p>Attachments</p>
+        <input class="form__input form__input--file" type="file">
+      </label>
+      <button class="form__button" type="submit">Send Message</button>
+    </div>
+  </form>
+</body>
+</html>

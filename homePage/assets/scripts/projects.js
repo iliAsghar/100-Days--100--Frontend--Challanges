@@ -250,6 +250,15 @@ export const projects = [
     screenshotSmall: '/project screenshots/28s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/028-%20Heart%20Beat/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/028-%20Heart%20Beat'
+  },
+  {
+    id: 29,
+    title: 'Message Box',
+    summary: `A message box/form for ticket submissions, feedback, and more.`,
+    screenshot: '/project screenshots/29.png',
+    screenshotSmall: '/project screenshots/29s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/029-%20Message%20Box/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/029-%20Message%20Box'
   }
 ];
 
