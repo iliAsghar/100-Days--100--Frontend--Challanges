@@ -259,7 +259,16 @@ export const projects = [
     screenshotSmall: '/project screenshots/29s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/029-%20Message%20Box/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/029-%20Message%20Box'
-  }
+  },
+  {
+    id: 30,
+    title: 'Calendar',
+    summary: `This project is a small calendar layout with an event UI. I might make a calander 2.0 and have this layout function (sort of).`,
+    screenshot: '/project screenshots/30.png',
+    screenshotSmall: '/project screenshots/30s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/030-%20Calendar/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/030-%20Calendar'
+  },
 ];
 
 

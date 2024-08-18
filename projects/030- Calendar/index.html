@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project #30 - Calendar</title>
+  <link rel="stylesheet" href="../!global assets/reset.css">
+  <link rel="stylesheet" href="./assets/stylesheets/style.css">
+  <link rel="shortcut icon" href="../../homePage/images/icons/icon2.0.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/81541dc3f8.js" crossorigin="anonymous"></script>
+  <script src="./assets/scripts/script.js" defer></script>
+</head>
+<body>
+  <div class="cal">
+    <div class="cal__overview">
+      <div class="cal__nav">
+        <button class="cal__nav__btn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <p>
+          <span class="cal__nav__month">February</span>
+          <span class="cal__nav__year">2024</span>
+        </p>
+        <button class="cal__nav__btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="cal__month">
+        <!-- small screen content -->
+        <p class="cal__month__item cal__month__item--weekday screen--small">mo</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">tu</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">we</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">th</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">fr</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">sa</p>
+        <p class="cal__month__item cal__month__item--weekday screen--small">su</p>
+        
+        <!-- large screen content -->
+        <p class="cal__month__item cal__month__item--weekday screen--large">mon</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">tue</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">wed</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">thu</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">fri</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">sat</p>
+        <p class="cal__month__item cal__month__item--weekday screen--large">sun</p>
+
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item cal__month__item--today">1</p>
+        <p class="cal__month__item">2</p>
+        <p class="cal__month__item">3</p>
+        <p class="cal__month__item">4</p>
+        <p class="cal__month__item">5</p>
+        <p class="cal__month__item">6</p>
+        <p class="cal__month__item">7</p>
+        <p class="cal__month__item">8</p>
+        <p class="cal__month__item">9</p>
+        <p class="cal__month__item">10</p>
+        <p class="cal__month__item">11</p>
+        <p class="cal__month__item">12</p>
+        <p class="cal__month__item">13</p>
+        <p class="cal__month__item">14</p>
+        <p class="cal__month__item">15</p>
+        <p class="cal__month__item">16</p>
+        <p class="cal__month__item">17</p>
+        <p class="cal__month__item">18</p>
+        <p class="cal__month__item">19</p>
+        <p class="cal__month__item">20</p>
+        <p class="cal__month__item">21</p>
+        <p class="cal__month__item">22</p>
+        <p class="cal__month__item">23</p>
+        <p class="cal__month__item">24</p>
+        <p class="cal__month__item">25</p>
+        <p class="cal__month__item">26</p>
+        <p class="cal__month__item">27</p>
+        <p class="cal__month__item">28</p>
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item"></p>
+        <p class="cal__month__item"></p>
+      </div>
+    </div>
+    <div class="cal__today">
+      <p class="cal__today__day">
+        Tue,
+        <span class="cal__today__date">Feb 1</span>
+      </p>
+      <div class="cal__today__events">
+        <div class="cal__today__event">
+          <p class="cal__today__event__title">
+
+            event #1</p>
+          <button class="cal__today__event__remove-btn">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+        <div class="cal__today__event">
+          <p class="cal__today__event__title">
+
+            event #2</p>
+          <button class="cal__today__event__remove-btn">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+        <div class="cal__today__event">
+          <p class="cal__today__event__title">
+
+            event #3</p>
+          <button class="cal__today__event__remove-btn">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <button class="cal__today__add-event-button">add event</button>
+    </div>
+  </div>
+</body>
+</html>
