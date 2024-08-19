@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project #31 - Feedback Widget</title>
+  <link rel="stylesheet" href="../!global assets/reset.css">
+  <link rel="stylesheet" href="./assets/stylesheets/style.css">
+  <link rel="shortcut icon" href="../../homePage/images/icons/icon2.0.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/81541dc3f8.js" crossorigin="anonymous"></script>
+  <script src="./assets/scripts/script.js" defer></script>
+</head>
+<body>
+  <form class="fb">
+    <div class="fb__close-btn">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <h2 class="fb__title">Give us feedback</h2>
+    <div class="fb__rating">
+      <p class="fb__rating__title fb__label-text">What do you think of our service?</p>
+      <div class="fb__rating__emojis">
+        <label class="fb__rating__emoji">
+          <i class="fa-solid fa-star"></i>
+          <input type="radio" name="rating" class="radio-input" checked>
+        </label>
+        <label class="fb__rating__emoji">
+          <i class="fa-solid fa-star"></i>
+          <input type="radio" name="rating" class="radio-input">
+        </label>
+        <label class="fb__rating__emoji">
+          <i class="fa-solid fa-star"></i>
+          <input type="radio" name="rating" class="radio-input">
+        </label>
+        <label class="fb__rating__emoji">
+          <i class="fa-solid fa-star"></i>
+          <input type="radio" name="rating" class="radio-input">
+        </label>
+        <label class="fb__rating__emoji">
+          <i class="fa-solid fa-star"></i>
+          <input type="radio" name="rating" class="radio-input">
+        </label>
+      </div>
+    </div>
+    <label class="fb__comment__label fb__label-text">
+      What did you like? Any comments?
+      <textarea class="fb__comment__input" placeholder="write your comment..." required maxlength="130"></textarea>
+    </label>
+    <button type="submit" class="fb__submit-btn"> Submit feedback </button>
+  </form>
+</body>
+</html>

@@ -269,6 +269,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/030-%20Calendar/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/030-%20Calendar'
   },
+  {
+    id: 31,
+    title: 'Feedback Widget',
+    summary: `A Feedback widget using only HTML & CSS.`,
+    screenshot: '/project screenshots/31.png',
+    screenshotSmall: '/project screenshots/31s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/031-%20Feedback%20Widget/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/031-%20Feedback%20Widget'
+  },
 ];
 
 
