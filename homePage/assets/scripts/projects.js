@@ -278,6 +278,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/031-%20Feedback%20Widget/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/031-%20Feedback%20Widget'
   },
+  {
+    id: 32,
+    title: 'User Card',
+    summary: `In this project I made a simple user card ; with a twist! for today's project, I set up a timer to do the project. so there was a time limit.`,
+    screenshot: '/project screenshots/32.png',
+    screenshotSmall: '/project screenshots/32s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/032-%20User%20Card/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/032-%20User%20Card'
+  },
 ];
 
 
