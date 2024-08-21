@@ -287,6 +287,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/032-%20User%20Card/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/032-%20User%20Card'
   },
+  {
+    id: 33,
+    title: 'Dial Pad',
+    summary: `This project is a semi-functional YAKIA Dial Pad. Initially, it wasn't intended to look like a Nokia (or a phone) at all, but I decided to go for it. It doesn't look terrible.`,
+    screenshot: '/project screenshots/33.png',
+    screenshotSmall: '/project screenshots/33s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/033-%20Dial%20Pad/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/033-%20Dial%20Pad'
+  },
 ];
 
 
