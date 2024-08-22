@@ -296,6 +296,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/033-%20Dial%20Pad/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/033-%20Dial%20Pad'
   },
+  {
+    id: 34,
+    title: 'Github Profiles',
+    summary: `This project is a GitHub account info viewer. I used the GitHub API to fetch information about any GitHub account. There are some tweaks to be made, though. I'll fix them later.`,
+    screenshot: '/project screenshots/34.png',
+    screenshotSmall: '/project screenshots/34s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/034-%20Github%20Profiles/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/034-%20Github%20Profiles'
+  },
 ];
 
 
