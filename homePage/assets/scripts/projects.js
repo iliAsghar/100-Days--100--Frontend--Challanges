@@ -305,6 +305,15 @@ export const projects = [
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/034-%20Github%20Profiles/',
     dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/034-%20Github%20Profiles'
   },
+  {
+    id: 35,
+    title: 'A Break',
+    summary: `For project 35 I wasn't feeling very well & motivated. so, I took this one off. it's a break!`,
+    screenshot: '/project screenshots/35.png',
+    screenshotSmall: '/project screenshots/35s.jpg',
+    liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/035-%20A%20Break/',
+    dirLink: 'https://github.com/iliAsghar/100-Days--100--Frontend--Challanges/tree/main/projects/035-%20A%20Break'
+  },
 ];
 
 
