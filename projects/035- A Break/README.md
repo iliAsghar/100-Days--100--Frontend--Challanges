@@ -14,7 +14,7 @@
 
 ## 📖 Description
 
-For project 35 I wasn't feeling very well & motivated. so, I took this one off. it's a break!
+These last few days I'm not feeling too well and motivated. so I'll be taking a break!
 
 ## 🎯 Project Goals
 

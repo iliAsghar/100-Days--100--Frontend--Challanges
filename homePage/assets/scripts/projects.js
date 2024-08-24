@@ -308,7 +308,7 @@ export const projects = [
   {
     id: 35,
     title: 'A Break',
-    summary: `For project 35 I wasn't feeling very well & motivated. so, I took this one off. it's a break!`,
+    summary: `These last few days I'm not feeling too well and motivated. so I'll be taking a break!`,
     screenshot: '/project screenshots/35.png',
     screenshotSmall: '/project screenshots/35s.jpg',
     liveLink: 'https://iliasghar.github.io/100-Days--100--Frontend--Challanges/projects/035-%20A%20Break/',
